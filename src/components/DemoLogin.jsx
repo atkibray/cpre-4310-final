@@ -41,7 +41,6 @@ export default function DemoLogin() {
     // Simulate exfiltration risk and delay
     await new Promise((r) => setTimeout(r, 2500));
     setLoading(false);
-    alert("This is how easy it is for your credentials to be stolen!");
     redirectToExternal("https://myapps.microsoft.com");
   };
 
